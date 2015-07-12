@@ -1,0 +1,59 @@
+@font-face { font-family: 'Poiret One'; src: url('fonts/Poiret_One/PoiretOne-Regular.ttf'); }
+@font-face { font-family: 'Rock Salt'; src: url('fonts/Rock_Salt/RockSalt.ttf'); }
+/*@import url('mobile.css');*/
+
+
+/*html, body { }*/
+body { width: 100%; height:100%; margin:0; padding:0; background-image:url('../images/backgrounds/bg_body.png'); }
+body {  font-size: 21px;}
+
+
+/* ----------- Generic ----------- */
+a { text-decoration: none !important; color: inherit; }
+
+.container {}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.mobile { display: none; }
+
+/* ----------- Header ----------- */
+.header { padding: 25px 0; }
+
+/* Logo Header */
+.logo { width: 100%; text-align: center; font-family: 'Rock Salt'; }
+.logo_name { width: 100%; }
+.logo_acuarelas { width: 100%; }
+.logo_name a { width:100%; font-size: 1.8em; line-height: 50%; color: #FFFFFF; letter-spacing: 3px; }
+.logo_acuarelas span { float:left; line-height: 100%; margin-left:50%; font-size: 1.4em; color: #A14343; }
+
+/* ----------- Galery ----------- */
+.galery { width: 100%; height: auto; }
+
+/* ----------- Footer ----------- */
+.footer { position: fixed; bottom: 0; width: 100%; text-align: center; }
+
+/* Menu */
+.menu-bar { display: block; padding: 0; margin: 0; width: 100%; height:50px; background-color: #000000; border-top: 1px solid #242424; }
+.menu-bar li { display: inline-block; }
+.menu-bar li a { margin: 0 10px; font-family: 'Poiret One'; font-size: 30px; line-height: 150%; color: #FFFFFF; }
+.menu-bar li a.active, 
+.menu-bar li a:hover { color: #A14343; }
+
+/* Social */
+.social { width: 100%; padding: 10px 0; }
+
+.social-button { font-size: 29px !important; line-height: 30px; padding: 0 2.5px; }
+.social-button#fb { color:#425F9C; }
+.social-button#tw { color:#54A4D6; }
+.social-button#pi { color:#CB2028; }
+.social-button:hover { color:grey !important; }
+
+.privacy { font-size: 14px; color: #BFBFBF; }
+.privacy:hover { color: grey;}

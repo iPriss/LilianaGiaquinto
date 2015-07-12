@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+ <!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="viewport" content="width=device-width, initial-scale=1">
+			<title>Pagina de Prueba - Carrousel</title>
+	
+			<link rel="shortcut icon" href="../images/favicon.ico">
+
+			<!-- Stylesheet -->
+			<link rel="stylesheet" href="../styles/default.css">
+			<link rel="stylesheet" href="../styles/mobile.css">
+
+			<!-- Externals assets -->
+			<link rel="stylesheet" href="../assets/font-awesome/4.3.0/css/font-awesome.min.css">
+
+			<script type="text/javascript" src="../assets/jquery/1.11.3/jquery.min.js"></script>
+			<script type="text/javascript" src="carousel.js"></script>
+	</head>
+	<body>
+		<div class="galery"></div>	
+	</body>
+</html>
+
+<script>
+	$(document).ready(function(){
+		$(".galery").carousel({
+			imgPath: '../images/galery/', 
+			imgData: ['imagen0.jpg','imagen1.jpg','imagen2.jpg','imagen3.jpg','imagen4.jpg','imagen5.jpg','imagen6.jpg','imagen7.jpg','imagen8.jpg']
+		});
+	});
+</script>	
